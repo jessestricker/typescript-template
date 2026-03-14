@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
+    "rootDir": ".",
     "outDir": "./dist",
     "composite": true,
     "declaration": true,
